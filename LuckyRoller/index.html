@@ -14,8 +14,68 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>幸运大转盘</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 	</head>
 	<body>
 		<!--这个DEMO是一个幸运大转盘的一个DEMO,使用简单,方便,可以很轻松的用来做抽奖活动,兼容移动端-->
+		    <img src="images/4.png" id="iphone-img" style="display:none;">
+		    <img src="images/5.png" id="baozheng-img" style="display:none;">
+		    <img src="images/6.png" id="anmoqi-img" style="display:none;">
+		    <img src="images/3.png" id="gongzai-img" style="display:none;">
+		    <img src="images/2.png" id="sorry-img" style="display:none;">
+		    <img src="images/1.png" id="suiji-img" style="display:none;">
+		        
+		    <div class="cover-div"></div>  
+		    
+		    <div class="homebox">
+			    <div class="main_head">
+					<a href="index.html"><img src="images/back.png" /></a>
+				 	<p>兑换</p>
+			    </div>
+		     </div>
+		    <div class="rules">
+		        <span class="activityRule">活动规则</span>
+		    </div>
+		        
+			<!--转盘-->
+			<div class="banner">
+				<div class="turnplate" style="background-image:url(images/turnplate-bg.png) ;background-size:100% 100%;">
+					<canvas class="item" id="wheelcanvas" width="422px" height="422px"></canvas>
+					<img class="pointer" src="images/turnplate-pointer.png">
+				</div>
+			</div>
+		        
+		    <!--获奖结果--> 
+		    <div class="result-div">
+		        <img class="close-img" src="images/closeBtn.png"></img>
+				<div>
+					<img class="honbao-img" src="images/hongbao.png"></img>
+					<p class="addTxt">获得</p>
+				</div>
+		           
+				<div class="inviteBtn-div">
+					<img class="inviteBtn-img" src="images/inviteBtn.png"></img>
+				</div>
+		    </div>
+		
+		    <div class="cover-rules">
+		        <img class="closerules-img" src="images/closeBtn.png"></img>
+		        <p style="text-align:center;  font-size:0.8em;">活动规则</p>
+		        <p>1.每位用户每天有一次免费抽奖机会</p>
+		        <p>2.抽奖结束，邀请好友来玩，可获得第二次抽奖机会（每日仅限一次机会）<p>
+		        <p>3.参加抽奖的好友，将成为您的徒弟</p>
+		    </div>
+		    
+		    <div class="careful">
+		        <p style="text-align: left; color:#333; font-weight:bold;">注意事项</p>
+		        <p>1.中奖概率是80%，只要参与就能中奖</p>
+		        <p>2.获得实物奖品的用户请确保已填写完整个人信息，并确保手机通畅，官方会确认中奖信息，并送达奖品</p>
+		        <p>3.本活动在法律允许范围内最终解释权归**所有</p>
+		    </div>
 	</body>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>	
+		<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/awardRotate.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 </html>

@@ -1,0 +1,37 @@
+@charset "utf-8";a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,i,iframe,img,input,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,select,small,span,strike,strong,sub,summary,sup,table,tbody,td,textarea,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;font-family:myFirstFont}
+ol,ul{list-style:none}
+html{overflow-x:hidden;-webkit-text-size-adjust:none}
+@font-face{font-family:myFirstFont;src:url(../ziti/HELR45W_0.TTF),url(../ziti/FZHTJW.TTF);color:#666}
+a{text-decoration:none;outline:0;blr:expression(this.onFocus=this.blur())}
+a:link{color:#666}
+a:visited{color:#666}
+a:active,a:focus,a:hover{color:#a3a5c5;-webkit-transition:.5s;-moz-transition:.5s;transition:.5s}
+.fl{float:left;display:inline}
+.fr{float:right;display:inline}
+.clear{clear:both}
+.clearfix:after{clear:both;display:block;height:0;visibility:hidden;line-height:0;content:'\20'}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+sub,sup{vertical-align:baseline;font-size:100%}
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+button,input,select,textarea{font-size:100%;outline:0;resize:none}
+input[type=button]{cursor:pointer;border:0}
+input[type=submit]{cursor:pointer;border:0}
+input[type=reset]{cursor:pointer;border:0}
+input[type=button]::-moz-focus-inner,input[type=submit]::-moz-focus-inner,input[type=reset]::-moz-focus-inner,input[type=file]>input[type=button]::-moz-focus-inner{border:none;padding:0}
+fieldset,img{border:0;vertical-align:middle}
+.waper{width:1004px;margin:0 auto}
+.f13{font-size:13px}
+.f14{font-size:14px}
+.f16{font-size:16px}
+.f20{font-size:20px}
+.f24{font-size:24px}
+.color1{color:#adb0d3}
+.color2{color:#a3a5c5}
+.prt5{padding-top:5px}
+.prt10{padding-top:10px}
+.hasShadow{box-shadow:2px 2px 4px #dfdfdf;-moz-box-shadow:2px 2px 4px #dfdfdf;-webkit-box-shadow:2px 2px 4px #dfdfdf;-o-box-shadow:2px 2px 4px #dfdfdf}
+.hasBorder{border:1px solid #ccc}
+.hasRadius{border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px}
+{-webkit-appearance:none;-webkit-border-radius:0;background-color:#fff;font-family:inherit;border:1px solid #ccc;box-shadow:inset 0 1px 2px rgba(0,0,0,.1);color:rgba(0,0,0,.75);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;transition:box-shadow .45s,border-color .45s ease-in-out}
