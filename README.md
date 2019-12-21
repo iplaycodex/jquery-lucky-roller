@@ -1,6 +1,4 @@
-# LLLuckyRoller
+## jquery-lucky-roller
 这是一个幸运转盘的DEMO,使用canvas来进行渲染,高性能,使用简单方便,特别适合做抽奖活动,可以很方便的集成到项目中.
 
->另外的CSS和JS代码已经做了美化处理,但是没有压缩
-
->最后推荐一个图片压缩的网站,非常的好用https://tinypng.com/
+### That's all...
